@@ -10,7 +10,8 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
      
     
     if($confirmpassword!==$createpassword){
-        echo "created password does not match with confirm password. <BR> RETRY";
+        echo "<script>alert('created password does not match with confirm password.RETRY');
+        window.location.href = 'register.html';</script>";
         exit;
     }
     else{
@@ -19,8 +20,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 $sql = "INSERT INTO registration (email, password, username) VALUES ('$email', '$hashedPassword', '$username')";
 
          if($conn->query($sql)==TRUE){
-            echo "data inserted succesfully";
-            
+       
             header("Location: login.html");
          }
          else{
