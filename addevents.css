@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(246, 246, 199);
+}
+h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 4.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    margin:30px;
+    padding:10px;
+    background-color: rgb(80, 80, 252);
+}
+#addEventBtn{
+    margin-left:500px;
+    
+}
+#viewEvents{
+    margin-left:300px;
+  
+}
+button:hover{
+    background-color: rgb(152, 152, 244);
+}
+#logout{
+  float:right;
+  margin: 1%;
+  background-color: rgb(1, 8, 15);
+  color:white;
+}

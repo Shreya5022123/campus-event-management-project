@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(252, 163, 225);
+    align-items:center;
+}
+div{
+    background-color:rgb(253, 199, 236);
+    height:550px;
+    width:400px;
+    text-align:justify;
+    margin-top: 80px;
+    margin-left: 550px;
+    border-radius: 10px;
+    padding:35px;
+
+}
+h1{
+    text-align: center;
+    padding:10px;
+    
+}
+hr{
+    border-top: 2px solid rgb(47, 18, 234);
+  
+}
+ label{
+    font-size: 1.3em;
+    
+} 
+#email{
+    margin-top: 50px;
+}
+input{
+    margin:20px;
+    height:25px;
+    width:180px;
+}
+button{
+    margin-top:40px;
+    height:30px;
+    width:300px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-align: center;
+    margin-left:40px;
+}

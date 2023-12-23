@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Add Event Form</title>
+      
+      <!-- Include Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="addevents.css">
+    </head>
+<body>
+<form action="logout.php" method="POST">
+  <input type="submit" name="logout" id="logout" value="LOG OUT">
+</form>
+  
+    <h2>Events</h2>
+    
+    
+    <form action="viewevents.php" method="POST">
+      <button type="button" id="addEventBtn">Add Event</button>
+    <button type="submit" name="view" id="viewEvents">View Events</button>
+    
+  </form>
+    <div id="eventForms">
+      <!-- Event forms will be appended here -->
+    </div><!DOCTYPE html>
+    
+  
+
+  <!-- Include Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Include your external JavaScript file -->
+  <script src="addevents.js"></script>
+</body>
+</html>
